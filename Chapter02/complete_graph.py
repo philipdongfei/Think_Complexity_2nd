@@ -30,7 +30,7 @@ def is_connected(G):
 
 
 if __name__=='__main__':
-    complete = make_complete_graph(10)
+    complete = make_complete_graph(5)
     nx.draw_circular(complete,
                  node_color=COLORS[0],
                  node_size=2000,
